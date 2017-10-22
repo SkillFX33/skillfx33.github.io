@@ -1,0 +1,182 @@
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+.header {
+	background-color: #fff;
+}
+
+.header__header-content {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 30px 0 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.header__logo {
+	float: left;
+}
+
+.header__nav-main {
+	text-align: center;
+	vertical-align: bottom;
+	margin-bottom: 45px;
+}
+
+.header__link {
+	text-decoration: none;
+	color: #343e5c;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 0;
+	padding: 0 13px;
+	border-bottom: 1px solid #fff;
+	transition-duration: 150ms;
+}
+
+.header__link:hover {
+	border-bottom: 1px solid #000;
+}
+
+.header__header-menu {
+	float: right;
+}
+
+.cart {
+	background: none;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	outline: none;
+}
+
+.cart__icon {
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.cart__counter {
+	border-radius: 50%;
+	background-color: #e3e8f0;
+	margin: 0;
+	margin-left: 5px;
+	padding: 4px;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	color: #343e5c;
+}
+
+.header-menu__sign-in-button {
+	text-decoration: none;
+	color: #343e5c;
+	margin-left: 15px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 13px;
+	border: 2px solid #e3e8f0;
+	border-radius: 25px;
+	padding: 5px 15px;
+}
+
+.header-menu__sign-in-button:hover {
+	background-color: #e3e8f0;
+}
+
+.nav-panel {
+	border-top: 1px solid #e3e8f0;
+	padding: 20px 0;
+}
+
+.nav-panel__link {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #b9bed1;
+	font-size: 13px;
+	margin: 0 20px 0 0;
+	font-weight: 600;
+	transition-duration: 150ms;
+}
+
+.nav-panel__link_selected {
+	color: #343e5c;
+}
+
+.nav-panel__link_right {
+	float: right;
+	margin-right: 30px;
+}
+
+.search-form {
+	float: right;
+	padding: 20px 10px;
+	border-left: 1px solid #e3e8f0;
+}
+
+.search-form__search-icon {
+	padding: 0 5px;
+	vertical-align: middle;
+}
+
+.search-form__input {
+	vertical-align: middle;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	border: none;
+	color: #343e5c; 
+	outline: none;
+}
+.search-form__input::placeholder {
+	color: #a1a7bd;
+	font-size: 13px;
+}
+
+.main {
+	background-color: #1c1e23;
+}
+
+.main-content {
+	width: 1170px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 100px;
+	background: url('img/iphone_6.png');
+	background-size: cover;
+	color: #fff;
+}
+
+.main__header {
+	font-weight: 900;
+	font-size: 42px;
+}
+
+.main__text {
+	font-size: 16px;
+	font-weight: 400;
+	max-width: 500px;
+}
+
+.main__buy-button {
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #2754eb;
+	border-radius: 30px;
+	padding: 13px 50px;
+	font-size: 11px;
+	font-weight: 600;
+	border: none;
+	outline: none;
+	margin-top: 50px;
+}
+
+.main__buy-button:hover {
+	cursor: pointer;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portland</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat:400,600,900" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header class="header">
+		<div class="header__header-content">
+			<img src="img/Portland.png" alt="Portland" class="header__logo">
+
+			<div class="header__header-menu" action="#">
+				<button class="cart">
+					<img class="cart__icon" src="img/Shopping Cart Icon.svg" 
+					alt="cart">
+					Cart
+					<span class="cart__counter">0</span>
+				</button>
+				<a class="header-menu__sign-in-button" href="#">sign in</a>
+			</div>
+
+			<nav class="header__nav-main">
+				<a class="header__link" href="#">Home</a>
+				<a class="header__link" href="#">Devices</a>
+				<a class="header__link" href="#">Delivery & Payment</a>
+				<a class="header__link" href="#">Guarantee</a>
+				<a class="header__link" href="#">About Us</a>
+			</nav>
+
+			<form action="#" class="search-form">
+				<img src="img/Search Icon.svg" alt="search" 
+				class="search-form__search-icon">
+				<input class="search-form__input" type="text" placeholder="I`m looking for ...">
+			</form>
+
+			<nav class="nav-panel">
+				<a class="nav-panel__link" href="#">Top Sales</a>
+				<a class="nav-panel__link" href="#">Brand Focus</a>
+				<a class="nav-panel__link" 
+				href="#">Hi-Tech</a>
+				<a class="nav-panel__link" href="#">Best Sellers</a>
+				<a class="nav-panel__link" href="#">Projects</a>
+				<a class="nav-panel__link nav-panel__link_right" href="#">Support</a>
+			</nav>
+
+		</div>
+	</header>
+
+	<main class="main">
+		<div class="main-content">
+			<h1 class="main__header">iPhone 6 32Gb <br> Black</h1>
+			<h5 class="main__text">At first, for some time, I was not able to answer him one word; but as he had taken me in his arms I held fast by him, or I should have fallen to the ground.</h5>
+			<button class="main__buy-button">Buy Now</button>
+		</div>
+	</main>
+
+	<script>
+		$(".nav-panel__link").mouseenter(function() {
+			$(this).addClass("nav-panel__link_selected");
+		});
+		$(".nav-panel__link").mouseleave(function() {
+			$(this).removeClass("nav-panel__link_selected");
+		});
+	</script>
+</body>
+</html>
